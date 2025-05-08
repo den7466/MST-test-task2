@@ -1,0 +1,68 @@
+/* Сброс дефолтных стилей */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Основные стили */
+.page {
+  background-color: #000000;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.container__svg {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+.container__erectio [fill="black"] {
+  height: .5rem;
+}
+
+.container__foreign-video-object {
+  aspect-ratio: 16 / 9;
+  font-size: 1rem;
+}
+
+.container__video {
+  width: 100%;
+}
+
+.container__text {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  fill: #ffffff;
+}
+
+.container__back {
+  fill: #000000;
+}
